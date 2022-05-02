@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	font-family: 'Poppins', 'sans-serif';
+	color: white;
+}
+
+
+h1 {
+	/* color: grey; */
+	font: verdana;
+	padding: 0px 10px;
+}
+
+.maindiv {
+	/* color: black; */
+	width: 40%;
+	padding: 20px;
+	/* border-radius: 25px; */
+	margin: auto;
+	line-height: normal;
+	margin-top: 100px;
+	backdrop-filter: blur(3px) saturate(200%);
+	-webkit-backdrop-filter: blur(3px) saturate(200%);
+	background-color: rgba(17, 25, 40, 0.54);
+	border-radius: 12px;
+	border: 1px solid rgb(150, 0, 150);
+	;
+	/* border: 1rem solid white; */
+	/* background-image: url(./img/bg.jpg); */
+}
+
+.maindiv h1 {
+	text-align: center;
+}
+
+/* .btn {
+	text-align: center;
+	margin: auto; */
+/* } */
+
+.res {
+	margin: auto;
+}
+
+#mainform {
+	/* text-align: center; */
+	/* margin: auto; */
+	/* line-height: 30px; */
+	/* display: table; */
+	width: 80%;
+	/* background-color: aliceblue; */
+	margin: 3rem auto;
+}
+
+#mainform p {
+	/* display: table-row; */
+	display: flex;
+	justify-content: space-between;
+	margin: 1rem 0;
+}
+
+#mainform label {
+	display: table-cell;
+
+
+}
+
+#mainform input {
+	display: table-cell;
+	border: none;
+	background-color: rgb(255, 214, 255);
+	color: rgb(150, 0, 150);
+	border-radius: 0.5rem;
+}
+
+#mainform select {
+	outline: none;
+	border: none;
+	background-color: rgb(255, 214, 255);
+	color: rgb(150, 0, 150);
+	border-radius: 0.5rem;
+}
+
+.result {
+	display: none;
+	text-align: center;
+}
+
+.btn {
+	/* text-align: center; */
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	/* border-color: coral; */
+	/* background-color: #000; */
+}
+
+.btn button {
+	border: none;
+	background-color: rgb(255, 214, 255);
+	color: rgb(150, 0, 150);
+	font-weight: 700;
+	font-family: 'Poppins';
+	border-radius: 0.5rem;
+	padding: 0.5rem 1rem;
+}
+
+footer {
+	padding: 0px 10px;
+	padding-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+	/* body {
+		width: 100%;
+	} */
+
+	.maindiv {
+		width: 90vw;
+	}
+}
