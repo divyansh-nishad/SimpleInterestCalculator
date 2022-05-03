@@ -53,6 +53,10 @@ h1 {
 	margin: auto;
 }
 
+#amount {
+	padding-left: 5px;
+}
+
 #mainform {
 	/* text-align: center; */
 	/* margin: auto; */
